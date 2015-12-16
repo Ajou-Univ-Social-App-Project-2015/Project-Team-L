@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:clickable="false"
+    style="@style/AppTheme"
+    android:gravity="bottom|left"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/photo"
+        android:layout_gravity="center" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:gravity="bottom"
+        android:layout_gravity="center"
+        >
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="나가기"
+            android:id="@+id/cancelBtn"
+            android:background="@color/bg"
+            android:drawableTop="@drawable/cancel"
+            android:src="@drawable/cancel"
+            android:layout_below="@+id/bn3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:baselineAlignBottom="false"
+            android:layout_gravity="center" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="사진날리기"
+            android:background="@color/bg"
+            android:drawableTop="@drawable/send1"
+            android:id="@+id/uploadBtn"
+            android:src="@drawable/send1"
+            android:layout_below="@+id/bn3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:baselineAlignBottom="false"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@color/bg"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv"
+        android:layout_weight="0.71"
+        android:layout_gravity="center"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="456dp"
+        android:layout_height="300dp"
+        android:id="@+id/myPicView"
+        android:layout_gravity="center" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="나가기"
+            android:id="@+id/cancelBtn3"
+            android:background="@color/bg"
+            android:drawableTop="@drawable/cancel"
+            />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="사진받아오기"
+        android:background="@color/bg"
+        android:drawableTop="@drawable/receive"
+        android:id="@+id/viewBtn3"
+        android:src="@drawable/receive"
+        android:layout_centerHorizontal="true"
+        style="@style/AppTheme"
+        android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+</LinearLayout>

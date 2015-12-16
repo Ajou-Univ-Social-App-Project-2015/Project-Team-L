@@ -1,0 +1,14 @@
+<resources>
+    <string name="hello">Hello!</string>
+    <string name="app_name">Popple</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="LoginBtn">Login</string>
+    <string name="SignupBtn">Sign Up</string>
+    <string name="LogoutBtn">LogOut</string>
+    <string name="Welcome">Welcome!</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="button">Download</string>
+    <color name="bg">#FFFFFF</color>
+</resources>
